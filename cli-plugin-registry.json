@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    {
+      "name": "sample",
+      "endpoint": "github",    // where to start looking?  github, npm, gist
+      "location": "/user/repo",   // where is it in the end point?
+      "libs": [
+        "examplelib"
+      ]    // what libs should be installed in the cli/lib directory?
+    }
+  ]
+}
